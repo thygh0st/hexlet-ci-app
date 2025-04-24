@@ -6,6 +6,7 @@ jobs:
         steps:
             - uses: actions/checkout@v4
             - uses: actions/setup-node@v4
+            - uses: hexlet-components/hello-from-hexlet-action@release
             - name: building
               run: make setup
             - name: run tests
